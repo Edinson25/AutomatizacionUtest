@@ -1,6 +1,6 @@
 # PruebaAutomatización-Utest
 Prueba de testing para realizar la automatización de un registro por parte de un usuario en la pagina de Utest
-
+Recuerda que el proyecto cuenta con dos ramas, podras ver la automatización en la rama MASTER
 
 
 
