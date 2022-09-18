@@ -14,7 +14,7 @@ Prueba de testing para realizar la automatización de un registro por parte de u
   
   
 Ejemplo de prueba con mi computador
-<p><img src="https://github.com/Edinson25/AutomatizacionUtest/blob/main/2022-09-17-23-31-35.gif"  width"500" height="320"/></p>
+<p><img src="https://github.com/Edinson25/AutomatizacionUtest/blob/main/2022-09-17-23-31-35.gif"  width"800" height="500"/></p>
   
   
 <br> 
