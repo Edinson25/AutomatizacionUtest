@@ -1,5 +1,5 @@
-# BaseDeConocimiento-ThomasGreg
-Prototipo de un Base de Conocimiento accesible mediante el uso de un aplicativo web desarrollada en .NET, angular y SQLserver, utilizando algunos frameworks extras como boostrap , prismjs entre otros para la empresa Thomas Greg & Sons.
+# PruebaAutomatización-Utest
+Prueba de testing para realizar la automatización de un registro por parte de un usuario en la pagina de Utest
 
 
 
@@ -34,7 +34,7 @@ ejemplo documentacion en swagger del backend
 
 <div align="center">
  <br> 
- que tengan bonito dia. 
+ Espero que les gustara que tengan bonito dia. 
    <br> 
      <br> 
   
