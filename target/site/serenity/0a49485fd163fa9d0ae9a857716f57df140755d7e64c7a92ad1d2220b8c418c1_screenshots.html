@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0126667b6cc396480745f6c629aed45c71a2d88fb28985a5e3f05abc7f50cdc3.html">New User Registration On The Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="0a49485fd163fa9d0ae9a857716f57df140755d7e64c7a92ad1d2220b8c418c1.html">Edinson registration on the Utest page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-09-2022 23:50</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">New User Registration On The Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Edinson registration on the Utest page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="484ff27d16c038b6bae014663aee42a8ff3d745553290dcbdf5e89667330eb93.png" title=" Given Edinson wants to register on the Utest page" width="1920"/>
+                <img src="484ff27d16c038b6bae014663aee42a8ff3d745553290dcbdf5e89667330eb93.png" title=" Edinson open up" width="1920"/>
+                <img src="484ff27d16c038b6bae014663aee42a8ff3d745553290dcbdf5e89667330eb93.png" title=" Edinson opens the Choucair pagina utest" width="1920"/>
+                <img src="484ff27d16c038b6bae014663aee42a8ff3d745553290dcbdf5e89667330eb93.png" title=" Edinson open up (completed)" width="1920"/>
+                <img src="0715d4e98a5864e1f4d6ef066e73c872ee44499d1198ba98c6475b4ce750b74e.png" title=" Edinson register" width="1920"/>
+                <img src="0715d4e98a5864e1f4d6ef066e73c872ee44499d1198ba98c6475b4ce750b74e.png" title=" Edinson clicks on button that shows us the form to Register" width="1920"/>
+                <img src="0715d4e98a5864e1f4d6ef066e73c872ee44499d1198ba98c6475b4ce750b74e.png" title=" Edinson register (completed)" width="1920"/>
+                <img src="0715d4e98a5864e1f4d6ef066e73c872ee44499d1198ba98c6475b4ce750b74e.png" title=" Given Edinson wants to register on the Utest page (completed)" width="1920"/>
+                <img src="113eccb91701756f979329fd1fcac1ae9349be82070f095f8bd875c0a80e3c1b.png" title=" When Enter all the required information
+| strName | strLastName | strEmail | strMonthBirth | strDayBirth | strYearBirth | strCity | strPostalCode | strCountry | strPC | strVersionPC | strLanguagePC | strSmartPhone | strSmartPhoneModel | strSmartPhone_So | strPassword |
+| Edinson | Morales | edinson2526@utest.com | January | 16 | 2003 | Bogota | 111141 | Colombia | Windows | Windows11 | Spanish | Apple | iPhone | iOS 2.0 | EdinsonDev25 |" width="1920"/>
+                <img src="113eccb91701756f979329fd1fcac1ae9349be82070f095f8bd875c0a80e3c1b.png" title=" Edinson complete info user" width="1920"/>
+                <img src="113eccb91701756f979329fd1fcac1ae9349be82070f095f8bd875c0a80e3c1b.png" title=" Edinson enters 'Edinson' into User name field" width="1920"/>
+                <img src="625ddcc9b51a65cf711bcb4b867a607c8f52238da15dc07a81da942f62865a45.png" title=" Edinson enters 'Morales' into User Lastname field" width="1920"/>
+                <img src="b7200da21b65624e9813b428e42d5bbaf9874d560f94fa0eab9133b1f737ec3f.png" title=" Edinson enters 'edinson2526@utest.com' into User Emailname field" width="1920"/>
+                <img src="d9dd9c85f3330f0e98bc621430a57ed1377b15b3c644f7d33875773fda66932e.png" title=" Edinson select January on User Month birth name field" width="1920"/>
+                <img src="09a35e1baf68cb250052777b22f96da356e51ff049085b69ccb253773c7f3bfd.png" title=" Edinson select 16 on User day birth field" width="1920"/>
+                <img src="792df72118cfd0332f4c33c591584db77361a99f698f2dea7ad3419ac9e7c1b3.png" title=" Edinson select 2003 on User year birth field" width="1920"/>
+                <img src="426561751c78bb7ab1ade1981fdd57a35b9174c4f5e1634b4f22608e13538e9b.png" title=" Edinson clicks on Button next section Location" width="1920"/>
+                <img src="426561751c78bb7ab1ade1981fdd57a35b9174c4f5e1634b4f22608e13538e9b.png" title=" Edinson complete info user (completed)" width="1920"/>
+                <img src="4bd7e8e79799765c794552677a9cc936c8348fb5dacbd5ccdacf96cb5c641fde.png" title=" Edinson complete info location" width="1920"/>
+                <img src="4bd7e8e79799765c794552677a9cc936c8348fb5dacbd5ccdacf96cb5c641fde.png" title=" Edinson enters 'Bogota' into user city field" width="1920"/>
+                <img src="33d4f9be23b9803cd6dee2cbc51bb67816c59a54e536fd525e503a200fe5b5f8.png" title=" Edinson types 'ARROW_DOWN' in user city field" width="1920"/>
+                <img src="f7111c3c3a6e0804235ad9aa437ce6ee262c274634566707946a86fbc7536b49.png" title=" Edinson types 'ENTER' in user city field" width="1920"/>
+                <img src="cc15cb4531688944916eb44ca2587b9030511f47e0f094f7621e79dcb59be370.png" title=" Edinson enters '111141' into user Postal Code field" width="1920"/>
+                <img src="6da3d6ec3ebb22744d6ecbaa25c9fd30bf6459cddc837a4cbb5100699b5eef87.png" title=" Edinson clicks on user Container Country field" width="1920"/>
+                <img src="efbda707721b2d3ad3a18b4b262c6e06578877c7547b3857a41bceb17437029b.png" title=" Edinson enters 'Colombia' into user country field" width="1920"/>
+                <img src="0ce09e593c499c27db0573dbc092427586a7773bfba2d159106e50b621fc11b2.png" title=" Edinson types 'ENTER' in user country field" width="1920"/>
+                <img src="ab9e82ca87160b1a5d072fdfcaf1c1fd89c2b2cb354988cf49f474f7918255c5.png" title=" Edinson clicks on Button next section devices" width="1920"/>
+                <img src="ab9e82ca87160b1a5d072fdfcaf1c1fd89c2b2cb354988cf49f474f7918255c5.png" title=" Edinson complete info location (completed)" width="1920"/>
+                <img src="d087046aeb560c80010b286f4a2db8bd930fb8245876b8185751121c8feca7af.png" title=" Edinson complete info devices" width="1920"/>
+                <img src="d087046aeb560c80010b286f4a2db8bd930fb8245876b8185751121c8feca7af.png" title=" Edinson clicks on Contenedor para computador" width="1920"/>
+                <img src="010510a04e6232a0eb9df85b2b464daf8aeca1fee6038b7510f0476c11189ecd.png" title=" Edinson enters 'Windows' then hits ARROW_DOWN and ENTER into Campo computador del usuario" width="1920"/>
+                <img src="253eaeb78900e9c8313e605a3fe2dcfe2509e8e9e1fae94bd8b4b79811e89a8b.png" title=" Edinson clicks on Contenedor para version computador" width="1920"/>
+                <img src="9d0e5800f861998084410cd702407920869958866070f34f64ec83c214e96545.png" title=" Edinson enters 'Windows11' then hits ARROW_DOWN and ENTER into Campo version computador del usuario" width="1920"/>
+                <img src="2a083b8baeaeb51fa99ba6fa936351a6151331037239918f0826660a293928d7.png" title=" Edinson clicks on Contenedor para lenguaje del computador" width="1920"/>
+                <img src="57d9b7cd0dd1bac2f31ceeb1c54c0522969d1d97fd6233dde92a7e35b2050ba2.png" title=" Edinson enters 'Spanish' then hits ARROW_DOWN and ENTER into Campo Lenguaje computador del usuario" width="1920"/>
+                <img src="df71514818e31859bfa69a25cdce789f0ced5ce22908e9522e4d0c9b38a4c202.png" title=" Edinson clicks on Contenedor para celular" width="1920"/>
+                <img src="339eb3541ea473ba8db987d2b3de6ef0b4dfa38396a16815b406c5458aaf704e.png" title=" Edinson enters 'Apple' then hits ARROW_DOWN and ENTER into Campo celular del usuario" width="1920"/>
+                <img src="f1d5012abe0ae9ffd36aef95316881fc1cf4e53251b555d673dbab4d560f809d.png" title=" Edinson clicks on Contenedor para modelo del celular" width="1920"/>
+                <img src="ac4d6f0262240774ce7f5161e5be19fd15b7c639162633751183cb64ffa2298e.png" title=" Edinson enters 'iPhone' then hits ARROW_DOWN and ENTER into Campo modelo del celular del usuario" width="1920"/>
+                <img src="6f006ee38fa489e570bc830913a550f6188998856f6f338526b76d34c4261e71.png" title=" Edinson clicks on Contenedor para sistema operativo celular" width="1920"/>
+                <img src="8986cb835a19e7b0b03d90f9d672fbff9564c20843406805975f3843784d9af4.png" title=" Edinson enters 'iOS 2.0' then hits ARROW_DOWN and ENTER into Campo sistema operativo del usuario" width="1920"/>
+                <img src="382395cc71731bebf99f8895d093ee3f1b8dd2725117c24581f5bbcdc74ba389.png" title=" Edinson clicks on Campo boton para seguir al siguiente paso" width="1920"/>
+                <img src="382395cc71731bebf99f8895d093ee3f1b8dd2725117c24581f5bbcdc74ba389.png" title=" Edinson complete info devices (completed)" width="1920"/>
+                <img src="6c61e08d56f46bfadcee88761a687a8ab83fa48b4f6716b883b71005fbbe84d5.png" title=" Edinson complete info password" width="1920"/>
+                <img src="6c61e08d56f46bfadcee88761a687a8ab83fa48b4f6716b883b71005fbbe84d5.png" title=" Edinson enters 'EdinsonDev25' into Create user password field" width="1920"/>
+                <img src="43170af7299429918c2ed9fcb1f9ecc83ec6ff8ae2f1258f993144042b9220ce.png" title=" Edinson enters 'EdinsonDev25' into Confirm user password field" width="1920"/>
+                <img src="9cc284dd2eb4146e974ff779e996366b0b94fa7b5c2db71ef4ec6ccc33cb80e1.png" title=" Edinson clicks on Checkbox to be informed" width="1920"/>
+                <img src="340c6dda6479ae0ad1e57852eceaaf1f8d3e5a064a67090b4dfae3e47a8f8153.png" title=" Edinson clicks on Checkbox for terms of use" width="1920"/>
+                <img src="086ab50ba32db47e5925f69d8f556218fa848a4e5754de75005d9ab8ba2c098e.png" title=" Edinson clicks on Checkbox for privacy and security" width="1920"/>
+                <img src="177a6ebb61e6433edb91373938150ca9d4152c65cb76546e135aa1459054b8e7.png" title=" Edinson clicks on BUTTON FOR COMPLETE SETUP" width="1920"/>
+                <img src="177a6ebb61e6433edb91373938150ca9d4152c65cb76546e135aa1459054b8e7.png" title=" Edinson complete info password (completed)" width="1920"/>
+                <img src="177a6ebb61e6433edb91373938150ca9d4152c65cb76546e135aa1459054b8e7.png" title=" When Enter all the required information
+| strName | strLastName | strEmail | strMonthBirth | strDayBirth | strYearBirth | strCity | strPostalCode | strCountry | strPC | strVersionPC | strLanguagePC | strSmartPhone | strSmartPhoneModel | strSmartPhone_So | strPassword |
+| Edinson | Morales | edinson2526@utest.com | January | 16 | 2003 | Bogota | 111141 | Colombia | Windows | Windows11 | Spanish | Apple | iPhone | iOS 2.0 | EdinsonDev25 | (completed)" width="1920"/>
+                <img src="d4c2e1c68d5b82bfd1c9a15516047106291338f68a41bc8adb52376dd4303f12.png" title=" Then registration is completed successfully
+| strFinalText |
+| Complete Setup |" width="1920"/>
+                <img src="d4c2e1c68d5b82bfd1c9a15516047106291338f68a41bc8adb52376dd4303f12.png" title=" Then answer" width="1920"/>
+                <img src="d4c2e1c68d5b82bfd1c9a15516047106291338f68a41bc8adb52376dd4303f12.png" title=" Then registration is completed successfully
+| strFinalText |
+| Complete Setup | (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
